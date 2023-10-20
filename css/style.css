@@ -11,7 +11,10 @@ body {
     gap: 2rem;
     justify-content: center;
     align-items: center;
-    background-color: lightblue;
+    background-color: hsl(185, 75%, 39%);
+    background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
+    background-position: -9.5rem -24rem, 45rem 25rem;
+    background-repeat: no-repeat, no-repeat;
 }
 
 main {
@@ -23,11 +26,15 @@ main {
     align-items: center;
     justify-content: center;
     background-color: #fff;
+    box-shadow: 0 20px 50px 10px hsl(229, 23%, 23%, .25);
 }
 
 .bg-pattern-card {
     border-radius: .75rem .75rem 0 0;
     margin-bottom: 4.25rem;
+    max-width: 100%;
+    min-height: 140px;
+    object-fit: cover;
 }
 
 .profile-photo {
@@ -61,7 +68,7 @@ h1 {
 
 hr {
     width: 100%;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
     height: 1px;
     border: none;
     background-color: hsl(0, 0%, 59%, .25);
@@ -73,7 +80,7 @@ hr {
     justify-content: space-between;
     text-align: center;
     width: calc(100% - 5rem);
-    padding: 1.5rem 2.5rem;
+    padding: 1rem 2.5rem 1.5rem 2.5rem;
 }
 
 .stat-item {
