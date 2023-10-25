@@ -12,9 +12,20 @@ body {
     justify-content: center;
     align-items: center;
     background-color: hsl(185, 75%, 39%);
-    background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
-    background-position: -9.5rem -24rem, 45rem 25rem;
-    background-repeat: no-repeat, no-repeat;
+}
+
+.top-bg-pattern {
+    position: fixed;
+    right: 50%;
+    bottom: 35%;
+    z-index: 1;
+}
+
+.bottom-bg-pattern {
+    position: fixed;
+    left: 50%;
+    top: 45%;
+    z-index: 1;
 }
 
 main {
@@ -27,6 +38,7 @@ main {
     justify-content: center;
     background-color: #fff;
     box-shadow: 0 20px 50px 10px hsl(229, 23%, 23%, .25);
+    z-index: 2;
 }
 
 .bg-pattern-card {
@@ -60,10 +72,10 @@ h1 {
 }
 
 .location {
-  margin-top: .75rem;
-  color: hsl(0, 0%, 59%);
-  font-size: .75rem;
-  letter-spacing: .025rem;
+    margin-top: .75rem;
+    color: hsl(0, 0%, 59%);
+    font-size: .75rem;
+    letter-spacing: .025rem;
 }
 
 hr {
@@ -103,6 +115,8 @@ hr {
 footer {
     text-align: center;
     line-height: 1.5rem;
+    color: #eee;
+    z-index: 2;
 }
 
 footer a {
