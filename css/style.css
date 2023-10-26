@@ -17,13 +17,13 @@ body {
 .top-bg-pattern {
     position: fixed;
     right: 50%;
-    bottom: 35%;
+    bottom: 50%;
     z-index: 1;
 }
 
 .bottom-bg-pattern {
     position: fixed;
-    left: 50%;
+    left: 46%;
     top: 45%;
     z-index: 1;
 }
