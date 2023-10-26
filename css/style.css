@@ -23,7 +23,7 @@ body {
 
 .bottom-bg-pattern {
     position: fixed;
-    left: 46%;
+    left: 50%;
     top: 45%;
     z-index: 1;
 }
